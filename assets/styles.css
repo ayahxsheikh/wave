@@ -1,0 +1,13 @@
+--root{
+    --paleBlue: #DEEEF0;
+    --dullPurple: #B8B7DB;
+    --paleOrange: #F0D09F;
+    --paleGreen: #B0E2C4;
+    --lightGrey: #D9D9D9;
+}
+
+*
+{
+    margin: 0px;
+    padding:0px;
+}
