@@ -73,9 +73,21 @@ body{
 .task-section{
     display: flex;
     justify-content: space-between;
+    text-align: left;
     margin: 2% auto;
-
 }
+
+.todo-box, .progress-box, .done-box{
+    border: 1px solid #de90d1;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+}
+
+/* .todo-item{
+    padding: 10% 15%;
+    background-color: #DEEEF0;
+} */
 
 .footer-bar{
     display: flex;
