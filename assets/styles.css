@@ -11,6 +11,12 @@
     padding:0px;
 }
 
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
 .justify-center{
     display: flex;
     justify-content: center;
@@ -30,4 +36,10 @@
 }
 
 /* MAIN STYLES */
+
+.menuBar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 
