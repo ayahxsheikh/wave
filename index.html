@@ -11,54 +11,62 @@
     <title>Todo List</title>
 </head>
 <body>
-    <header>
-        <div class="hero">
-            <h3 class="time">15:30</h3>
-            <h1 class="header-title">To Do List</h1>
-            <h3 class="date">25/10/2023</h3>
-        </div>
+    <header class="hero">
+        <nav class="nav-bar">
+            <h6 class="time">15:30</h6>
+            <h3 class="header-title">To Do List</h3>
+            <h6 class="date">25/10/2023</h6>
+        </nav>
     </header>
-
+    
     <main class="main-content">
         <div class="img-wrapper">
             <img class="todo-img" src="./assets/images/time-management.png">
         </div>
-
+        
         <section class="col-md-6 todo-box">
             <div class="todo-entry">
                 <input class="col-md-12 input-text" placeholder="Enter Task" >
-                <!-- <button class="col-md-1 del-btn">X</button> -->
             </div>
         </section>
-
+        
         <section class="row task-area">
-
+        <!-- DO TO AREA -->
             <div class="col-sm-4 todo-task">
                 <h6 class="task-title">To Do</h6>
-
+                
                 <div class="todo-item todo-bg">
                     <input class="input-task" placeholder="Enter Task" >
                     <button class="del-btn">
                         <i class="fa-regular fa-circle-xmark"></i>
                     </button>
                 </div>
-
+                
                 <div class="todo-item todo-bg">
                     <input class="input-task" placeholder="Enter Task" >
                     <button class="del-btn">
                         <i class="fa-regular fa-circle-xmark"></i>
                     </button>
                 </div>
+                
             </div>
-
+        
+    <!-- PROGRESS AREA -->
             <div class="col-sm-4 progress-task">
                 <h6 class="task-title">Progress</h6>
-
+                
                 <div class="todo-item prg-bg">
-                <input class="input-task" placeholder="Enter Task" >
-                <button class="del-btn">
-                    <i class="fa-regular fa-circle-xmark"></i>
-                </button>
+                    <input class="input-task" placeholder="Enter Task" >
+                    <button class="del-btn">
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </button>
+                </div>
+                
+                <div class="todo-item prg-bg">
+                    <input class="input-task" placeholder="Enter Task" >
+                    <button class="del-btn">
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </button>
                 </div>
 
                 <div class="todo-item prg-bg">
@@ -66,39 +74,41 @@
                     <button class="del-btn">
                         <i class="fa-regular fa-circle-xmark"></i>
                     </button>
-                    </div>
+                </div>
             </div>
 
+    <!-- COMPLETED AREA -->
             <div class="col-sm-4 done-task">
                 <h6 class="task-title">Completed</h6>
-
-                <div class="todo-item done-bg">
-                <input class="input-task" placeholder="Enter Task" >
-                <button class="del-btn">
-                    <i class="fa-regular fa-circle-xmark"></i>
-                </button>
-                </div>
-
+                
                 <div class="todo-item done-bg">
                     <input class="input-task" placeholder="Enter Task" >
                     <button class="del-btn">
                         <i class="fa-regular fa-circle-xmark"></i>
                     </button>
-                    </div>
+                </div>
+                
+                <div class="todo-item done-bg">
+                    <input class="input-task" placeholder="Enter Task" >
+                    <button class="del-btn">
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </button>
+                </div>
             </div>
-
-
+            
+            
         </section>
-
+        
     </main>
+    
+    <footer class="footer-bar">
+        <button class="night-btn">
+            <i class="fa-solid fa-moon fa-lg"></i>
+        </button>
+        <p class="footer-p">&copy;A SHEIKH 2024</p>
         
-        <footer class="footer-bar">
-            <!-- <div class="footer-items"> -->
-                <button>home</button>
-                <button>archives</button>
-                <button>night</button>
-            <!-- </div> -->
-        </footer>
-        
+    </footer>
+    
+    
 </body>
 </html>
