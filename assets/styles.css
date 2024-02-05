@@ -1,8 +1,8 @@
 :root{
     --paleBlue: #DEEEF0;
-    --dullPurple: #B8B7DB;
-    --paleOrange: #F0D09F;
-    --paleGreen: #B0E2C4;
+    --dullPurple: rgba(180, 179, 216, 0.507);
+    --paleOrange: #f0d09fab;
+    --paleGreen: #b0e2c4a8;
     --lightGrey: #D9D9D9;
 }
 
@@ -81,10 +81,10 @@ body{
 } */
 
 .todo-box{
-  margin: 0% auto;
+  margin: 2% auto 4% auto;
 }
 
-.todo-item{
+.todo-entry{
     padding: 4% 3%;
     background-color: #DEEEF0;
     border-radius: 7px;
@@ -97,11 +97,62 @@ body{
     /* background-color: #DEEEF0; */
 }
 
+/* TASK ROW SECTION */
+
+.task-area{
+    margin: 0% auto !important;
+    gap:0%;
+    /* text-align: center; */
+}
+
+.todo-task, .progress-task, .done-task{
+    padding: 1%;
+    text-align: center;
+    /* border: 1px solid grey; */
+}
+
+.todo-item {
+    margin-bottom: 2%;
+}
+
+.todo-bg, .prg-bg, .done-bg{
+    padding: 4%;
+    border-radius: 10px;
+}
+
+.todo-bg{
+    background-color: var(--dullPurple);
+}
+
+.prg-bg {
+    background-color: var(--paleOrange);
+}
+
+.done-bg{
+    background-color: var(--paleGreen);
+}
+
+.input-task{
+    padding: 4%;
+    width: 90%;
+    /* border-radius: 12px */
+    background: none;
+    border: none;
+}
 
 .del-btn{
     border: none;
-    margin: 0% auto;
+    background: none;
 }
+
+.fa-circle-xmark{
+    color: #a29c9c;
+}
+
+.fa-circle-xmark:hover{
+    color: #e57979;
+}
+
 
 .footer-bar{
     display: flex;
