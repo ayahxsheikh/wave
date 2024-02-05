@@ -75,20 +75,9 @@ body{
     text-align: center;
 }
 
-.task-section{
-    margin: 4% auto !important;
-}
-
-/* without bootstrap row in task-section
-    .task-section{
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    margin: 2% auto;
-} */
-
 .todo-box{
   margin: 2% auto 4% auto;
+  text-align: center;
 }
 
 .todo-entry{
@@ -100,8 +89,8 @@ body{
 .input-text{
     padding: 2%;
     border: none;
-    margin: 0% auto;
-    /* background-color: #DEEEF0; */
+    width: 90%;
+    border-radius: 4px;
 }
 
 /* TASK ROW SECTION */
@@ -109,7 +98,6 @@ body{
 .task-area{
     margin: 0% auto !important;
     gap:0%;
-    /* text-align: center; */
 }
 
 .todo-task, .progress-task, .done-task{
